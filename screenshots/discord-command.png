@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#36393f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f3136;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg2)" rx="8"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="48" fill="#202225" rx="8"/>
+  <text x="60" y="30" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold"># admin-commands</text>
+  <text x="24" y="30" fill="#72767d" font-family="Arial, sans-serif" font-size="20">#</text>
+
+  <!-- Slash command input -->
+  <text x="44" y="82" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="13">/server</text>
+
+  <!-- Bot response: Server Status Embed -->
+  <circle cx="44" cy="130" r="18" fill="#5865F2"/>
+  <text x="30" y="136" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BOT</text>
+  <text x="72" y="122" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PixelDisCraft</text>
+  <rect x="164" y="110" width="34" height="18" rx="3" fill="#5865F2"/>
+  <text x="170" y="123" fill="#fff" font-family="Arial, sans-serif" font-size="10">BOT</text>
+  <text x="206" y="122" fill="#72767d" font-family="Arial, sans-serif" font-size="11">Today at 4:15 PM</text>
+
+  <!-- Embed -->
+  <rect x="72" y="140" width="500" height="160" rx="4" fill="#2f3136" stroke="#4CAF50" stroke-width="3" stroke-dasharray="0,0,3,0"/>
+  <rect x="72" y="140" width="3" height="160" fill="#4CAF50"/>
+
+  <text x="88" y="164" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="bold">📊 Server Status</text>
+
+  <text x="88" y="190" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Players</text>
+  <text x="88" y="206" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">5 / 20</text>
+
+  <text x="200" y="190" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">TPS</text>
+  <text x="200" y="206" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">19.98</text>
+
+  <text x="300" y="190" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">RAM</text>
+  <text x="300" y="206" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">1024 / 4096 MB</text>
+
+  <text x="88" y="235" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Version</text>
+  <text x="88" y="251" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">Paper 1.20.4</text>
+
+  <text x="300" y="235" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Uptime</text>
+  <text x="300" y="251" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">2d 14h 32m</text>
+
+  <text x="88" y="280" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Online</text>
+  <text x="88" y="296" fill="#dcddde" font-family="Arial, sans-serif" font-size="13">Steve, Alex, Notch, Jeb, Dinnerbone</text>
+
+  <!-- Divider -->
+  <line x1="16" y1="320" x2="784" y2="320" stroke="#40444b" stroke-width="1"/>
+
+  <!-- Second command: /mc -->
+  <text x="44" y="352" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="13">/mc command say Hello from Discord!</text>
+
+  <!-- Bot response -->
+  <circle cx="44" cy="394" r="18" fill="#5865F2"/>
+  <text x="30" y="400" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BOT</text>
+  <text x="72" y="388" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PixelDisCraft</text>
+  <text x="72" y="408" fill="#4CAF50" font-family="Arial, sans-serif" font-size="14">✅ Command executed: say Hello from Discord!</text>
+
+  <!-- Placeholder notice -->
+  <rect x="200" y="440" width="400" height="40" rx="8" fill="#40444b"/>
+  <text x="400" y="460" fill="#72767d" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">📸 PLACEHOLDER — Replace with actual screenshot</text>
+</svg>

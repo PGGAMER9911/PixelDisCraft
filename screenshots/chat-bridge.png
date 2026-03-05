@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#36393f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f3136;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)" rx="8"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="48" fill="#202225" rx="8"/>
+  <text x="60" y="30" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold"># minecraft-chat</text>
+  <text x="24" y="30" fill="#72767d" font-family="Arial, sans-serif" font-size="20">#</text>
+
+  <!-- Message 1: Minecraft → Discord -->
+  <circle cx="44" cy="92" r="18" fill="#4CAF50"/>
+  <text x="38" y="98" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">S</text>
+  <text x="72" y="86" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Steve</text>
+  <text x="120" y="86" fill="#72767d" font-family="Arial, sans-serif" font-size="11">Today at 3:42 PM</text>
+  <text x="72" y="104" fill="#dcddde" font-family="Arial, sans-serif" font-size="14">[MC] Hey everyone! Just found diamonds! 💎</text>
+
+  <!-- Message 2: Discord → Minecraft notice -->
+  <circle cx="44" cy="152" r="18" fill="#5865F2"/>
+  <text x="35" y="158" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">A</text>
+  <text x="72" y="146" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Alex_DC</text>
+  <text x="138" y="146" fill="#72767d" font-family="Arial, sans-serif" font-size="11">Today at 3:42 PM</text>
+  <text x="72" y="164" fill="#dcddde" font-family="Arial, sans-serif" font-size="14">Nice! I'm on my way to your coords</text>
+
+  <!-- Message 3: Bot notification -->
+  <circle cx="44" cy="212" r="18" fill="#5865F2"/>
+  <text x="30" y="218" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BOT</text>
+  <text x="72" y="206" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PixelDisCraft</text>
+  <rect x="164" y="194" width="34" height="18" rx="3" fill="#5865F2"/>
+  <text x="170" y="207" fill="#fff" font-family="Arial, sans-serif" font-size="10">BOT</text>
+  <text x="206" y="206" fill="#72767d" font-family="Arial, sans-serif" font-size="11">Today at 3:43 PM</text>
+  <text x="72" y="224" fill="#dcddde" font-family="Arial, sans-serif" font-size="14">🟢 Notch joined the server</text>
+
+  <!-- Divider -->
+  <line x1="16" y1="252" x2="784" y2="252" stroke="#40444b" stroke-width="1"/>
+
+  <!-- Placeholder notice -->
+  <rect x="200" y="280" width="400" height="60" rx="8" fill="#40444b"/>
+  <text x="400" y="306" fill="#b9bbbe" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">📸 PLACEHOLDER SCREENSHOT</text>
+  <text x="400" y="326" fill="#72767d" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">Replace with actual screenshot of your chat bridge</text>
+</svg>

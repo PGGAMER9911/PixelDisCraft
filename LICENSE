@@ -1,0 +1,87 @@
+PixelDisCraft — Source-Available Restrictive License
+Version 1.0, March 2026
+
+Copyright (c) 2026 PixelDisCraft Contributors. All rights reserved.
+
+TERMS AND CONDITIONS
+
+1. DEFINITIONS
+
+   "Software" refers to the PixelDisCraft plugin (compiled JAR), Discord bot
+   source code, documentation, diagrams, and example code included in this
+   repository.
+
+   "Plugin" refers specifically to the compiled PixelDisCraft Minecraft plugin
+   JAR file distributed via GitHub Releases.
+
+   "Documentation" refers to all Markdown files, diagrams, example code
+   snippets, and supporting materials in this repository.
+
+   "You" refers to any individual or entity accessing this repository.
+
+2. PERMISSIONS
+
+   You ARE permitted to:
+
+   a) View, read, and reference the Documentation for personal or educational
+      purposes.
+
+   b) Download and use the compiled Plugin JAR on Minecraft servers you own
+      or operate, for personal or community use.
+
+   c) Fork this repository for the sole purpose of submitting improvements
+      to the Documentation via Pull Requests.
+
+   d) Use the example code snippets as reference for building your own
+      independent integrations, provided you do not copy the PixelDisCraft
+      system architecture wholesale.
+
+3. RESTRICTIONS
+
+   You are NOT permitted to:
+
+   a) Redistribute, resell, sublicense, or commercially distribute the
+      compiled Plugin JAR, in whole or in part, whether modified or
+      unmodified.
+
+   b) Reverse-engineer, decompile, disassemble, or attempt to derive the
+      source code of the compiled Plugin JAR.
+
+   c) Claim authorship of PixelDisCraft, or present it as your own work
+      in any public or commercial context.
+
+   d) Host mirror downloads of the Plugin JAR outside of the official
+      GitHub Releases page without explicit written permission.
+
+   e) Use PixelDisCraft or its name in paid products, services, or
+      storefronts without explicit written permission.
+
+   f) Remove, alter, or obscure any copyright notices, license texts,
+      or attribution contained in the Software.
+
+4. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+   CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. TERMINATION
+
+   This license is automatically terminated if you violate any of the above
+   terms. Upon termination, you must destroy all copies of the Plugin in
+   your possession.
+
+6. GOVERNING LAW
+
+   This license shall be governed by and construed in accordance with
+   applicable copyright law.
+
+---
+
+For questions about licensing or commercial use, please open an Issue on
+the GitHub repository.
