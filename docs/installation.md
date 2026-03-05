@@ -10,11 +10,13 @@ Before you begin, make sure you have:
 
 | Requirement | Minimum Version | Download |
 |-------------|----------------|----------|
-| Java | 17 | [Adoptium](https://adoptium.net/) |
-| PaperMC Server | 1.20.4 | [PaperMC](https://papermc.io/downloads) |
-| Node.js | 18 | [Node.js](https://nodejs.org/) |
-| npm | 9 | Included with Node.js |
+| Java | 17+ | [Adoptium](https://adoptium.net/) |
+| PaperMC Server | 1.20.4+ (1.21+ recommended) | [PaperMC](https://papermc.io/downloads) |
+| Node.js | 18+ | [Node.js](https://nodejs.org/) |
+| npm | 9+ | Included with Node.js |
 | Discord Bot Application | — | [Developer Portal](https://discord.com/developers/applications) |
+
+> **Compatibility note:** The plugin uses only the Paper API (no NMS) and is compatible with PaperMC 1.20.4 and newer, including 1.21+ builds.
 
 ---
 
@@ -26,7 +28,7 @@ Before you begin, make sure you have:
 
 ```
 your-server/
-├── paper-1.20.4.jar
+├── paper-1.2x.x.jar              ← 1.20.4 or newer
 ├── plugins/
 │   └── PixelDisCraft-1.0.jar    ← Place here
 ├── server.properties
@@ -40,7 +42,7 @@ your-server/
 Start your Minecraft server once:
 
 ```bash
-java -jar paper-1.20.4.jar
+java -jar paper-1.2x.x.jar
 ```
 
 The plugin will:

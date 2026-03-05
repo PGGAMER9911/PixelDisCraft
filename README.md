@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Minecraft-1.20.4-brightgreen?style=for-the-badge&logo=mojang-studios" alt="Minecraft 1.20.4" />
-  <img src="https://img.shields.io/badge/PaperMC-Plugin-blue?style=for-the-badge" alt="PaperMC" />
+  <img src="https://img.shields.io/badge/Minecraft-1.20.4%2B-brightgreen?style=for-the-badge&logo=mojang-studios" alt="Minecraft 1.20.4+" />
+  <img src="https://img.shields.io/badge/PaperMC-1.20.4%2B-blue?style=for-the-badge" alt="PaperMC 1.20.4+" />
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14" />
   <img src="https://img.shields.io/badge/License-Restricted-red?style=for-the-badge" alt="License" />
 </p>
@@ -15,6 +15,7 @@
   <a href="#-features">Features</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-visual-diagrams">Diagrams</a> •
+  <a href="#-compatibility">Compatibility</a> •
   <a href="#-installation">Installation</a> •
   <a href="#-configuration">Configuration</a> •
   <a href="#-usage">Usage</a> •
@@ -32,7 +33,7 @@ The system is composed of two parts:
 
 | Component | Technology | Role |
 |-----------|-----------|------|
-| **PixelDisCraft Plugin** | Java 17 · PaperMC 1.20.4 | Captures Minecraft events, exposes a REST API, executes commands |
+| **PixelDisCraft Plugin** | Java 17 · PaperMC 1.20.4+ | Captures Minecraft events, exposes a REST API, executes commands |
 | **PixelDisCraft Bot** | Node.js 18+ · discord.js v14 | Receives events, sends Discord messages, handles slash commands |
 
 Communication between the plugin and bot is secured via a shared **secret token** transmitted over a private REST API bridge.
@@ -164,14 +165,31 @@ sequenceDiagram
 
 ---
 
+## 🧩 Compatibility
+
+PixelDisCraft requires **PaperMC 1.20.4 or newer**.
+
+The plugin has been tested on:
+
+- PaperMC 1.20.4
+- PaperMC 1.21+
+
+Because the plugin uses only the **Paper API** and does not rely on internal Minecraft server code (NMS), it should work on most modern PaperMC builds starting from version 1.20.4.
+
+> **Minimum:** PaperMC 1.20.4 · **Recommended:** PaperMC 1.21+
+
+If you encounter compatibility issues on a specific Minecraft version, please [open an issue](https://github.com/PGGAMER9911/PixelDisCraft/issues).
+
+---
+
 ## 📥 Installation
 
 ### Prerequisites
 
 | Requirement | Version |
-|-------------|---------|
+|-------------|--------|
 | Java | 17+ |
-| PaperMC | 1.20.4 |
+| PaperMC | 1.20.4+ |
 | Node.js | 18+ |
 | npm | 9+ |
 | Discord Bot Token | [Discord Developer Portal](https://discord.com/developers/applications) |
@@ -186,7 +204,7 @@ sequenceDiagram
 cp PixelDisCraft-1.0.jar /path/to/server/plugins/
 
 # 3. Start the server once to generate config.yml
-java -jar paper-1.20.4.jar
+java -jar paper-1.2x.x.jar
 
 # 4. Edit plugins/PixelDisCraft/config.yml with your settings
 
